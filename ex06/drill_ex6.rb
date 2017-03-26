@@ -28,7 +28,10 @@ puts w + e
 =begin
 
 QUESTION: Find all the places where a string is put inside a string. There are four places.
-ANSWER: Lines 9, 14 and 15 have strings within a string.
+ANSWER: binary, do_not, x and y have strings within a string.
+
+QUESTION: Are you sure there are only four places? How do you know? Maybe I like lying.
+ANSWER: types_of_people and hilarious are treated as strings without quotations because of how they are inserted into another string.
 
 QUESTION: Explain why adding the two strings w and e with + makes a longer string.
 ANSWER: Ruby prints the strings assocaited with the variables w and e to form a longer string.
