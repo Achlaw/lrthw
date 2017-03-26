@@ -27,9 +27,9 @@ puts "Oh, that's why it's false."
 # Prints the string.
 puts "How about some more."
 
-# Prints the string with either true of false.
+# Prints the string with true.
 puts "Is it greater? #{5.0 > -2.0}"
-# Prints the string with either true of false.
+# Prints the string with true.
 puts "Is it greater or equal? #{5.0 >= -2.0}"
-# Prints the string with either true of false.
+# Prints the string with false.
 puts "is it less or equal? #{5.0 <= -2.0}"
