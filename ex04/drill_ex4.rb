@@ -27,7 +27,20 @@ puts "We have #{passengers} to carpool today."
 # Prints average passengers per car.
 puts "We need to put about #{average_passengers_per_car} in each car."
 
+=begin
 
-#{ }"ex4.rb:14: undefined local variable or method `carpool_capacity' for
-#     main:Object (NameError)""
-# This error means 'carpool_capacity' has not been defined because the variable name is wrong on line 8.
+QUESTION: When I wrote this program the first time I had a mistake, and Ruby told me about it like this:
+
+There are 100 cars available.
+There are only 30 drivers available.
+There will be 70 empty cars today.
+ex4.rb:14: undefined local variable or method `carpool_capacity' for
+    main:Object (NameError)
+
+Explain this error in your own words. Make sure you use line numbers and explain why.
+ANSWER: This error means 'carpool_capacity' has not been defined because the variable name is wrong on line 8.
+
+QUESTION: Remember that 4.0 is a floating point number. It's just a number with a decimal point, and you need 4.0 instead of just 4 so that it is floating point.
+ANSWER: The results will be the same except without a decimal at the end.
+
+=end
